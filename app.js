@@ -14,7 +14,7 @@ let toCurrency = "USD";
 let selectedBank = "NEW";
 let activeSide = "from";
 
-const API_KEY = "8cda23ded8cc75f82895d77d3dda5751";
+const API_KEY = "5810a6aa7bbdadd908909c474bb5e617";
 
 const banks = {
   ABC: {
