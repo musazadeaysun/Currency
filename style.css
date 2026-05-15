@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 32px;
+  padding: 14px 60px;
   border-bottom: 1px solid #e5e5e5;
   gap: 2rem;
   flex-wrap: nowrap;
@@ -37,6 +37,8 @@ body {
   gap: 1.5rem;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+  padding-left: 100px;
   font-size: 15px;
   color: #312f2f;
   cursor: pointer;
