@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valyuta Konvertoru</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div class="logo">
+        <img src="/picture/logo.jpg" alt="logo" />
+      </div>
+
+      <div class="navLinks">
+        <span class="bank">BANK</span>
+        <span>BİZNES</span>
+        <span>FƏRDİ</span>
+        <span>KART</span>
+        <span>ONLİNE</span>
+        <span>MÜRACİƏT</span>
+        <span>HAQQIMIZDA</span>
+      </div>
+
+      <button class="login">LOGIN</button>
+    </nav>
+
+    <div class="main">
+      <div class="status"></div>
+      <h1>Valyuta dəyişdir</h1>
+
+      <div class="grid">
+        <div class="card">
+          <div class="cardLabel">Daxil et / Dəyiş</div>
+
+          <div class="seg">
+            <button class="segButton active">RUB</button>
+            <button class="segButton">USD</button>
+            <button class="segButton">EUR</button>
+            <button class="segButton">GBP</button>
+          </div>
+
+          <div class="amountCard">
+            <input class="amountInput fromInput" type="number" value="5000" />
+
+            <div class="amountSub fromSub"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cardLabel">Nəticə</div>
+
+          <div class="seg" id="to-seg">
+            <button class="segButton">RUB</button>
+            <button class="segButton active">USD</button>
+            <button class="segButton">EUR</button>
+            <button class="segButton">GBP</button>
+          </div>
+
+          <div class="amountCard">
+            <input class="toAmount" type="number" />
+
+            <div class="amountSub toSub"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cardLabel">Bank seçimi</div>
+
+          <div class="seg" id="bankSeg">
+            <button class="segButton">ABC</button>
+            <button class="segButton active">NEW</button>
+            <button class="segButton">AME</button>
+            <button class="segButton">RED</button>
+          </div>
+
+          <div class="rateCard">
+            <div class="rateLabel">BUY</div>
+            <div class="rateValue buyRate">66.15</div>
+          </div>
+
+          <div class="rateCard">
+            <div class="rateLabel">SELL</div>
+            <div class="rateValue sellRate">67.83</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
